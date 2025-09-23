@@ -31,5 +31,8 @@ cd Machine_Learning_Project             #Used for setting current directory
 #### Git Commands
 ```
 git init                                #To Initialize a Git repository
-git status                              #Helps to show untracked files
+git status                              #Helps to show untracked files (status)
 git add.                                #Helps to add all untacked and modified files (.gitignore files not included)
+git log                                 #To track versions
+git commit -m "Description"             #Used to commit chnages on gitHub
+git push origin main                    #To send version/changes to git hub
