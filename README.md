@@ -54,6 +54,4 @@ docker build -t my-flask-app .
     docker build — starts the build process.
     -t your-image-name — tags (names) the image for easier reference later.(name need to be in small letters always)
     . tells Docker to use the current directory as the build context (where your Dockerfile and app files are).
-=======
-git push origin main                    #To send version/changes to git hub
->>>>>>> 7303e781c136dbe3e0d2c4d2dc1b74d50a095289
+
