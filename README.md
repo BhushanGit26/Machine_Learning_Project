@@ -35,6 +35,7 @@ git status                              #Helps to show untracked files (status)
 git add.                                #Helps to add all untacked and modified files (.gitignore files not included)
 git log                                 #To track versions
 git commit -m "Description"             #Used to commit chnages on gitHub
+<<<<<<< HEAD
 git push origin main                    #To send version/changes to git hub
 git remote -v                           #To get url of repo you are working in
 
@@ -53,3 +54,6 @@ docker build -t my-flask-app .
     docker build — starts the build process.
     -t your-image-name — tags (names) the image for easier reference later.(name need to be in small letters always)
     . tells Docker to use the current directory as the build context (where your Dockerfile and app files are).
+=======
+git push origin main                    #To send version/changes to git hub
+>>>>>>> 7303e781c136dbe3e0d2c4d2dc1b74d50a095289
